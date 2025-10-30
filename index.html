@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ms">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tempahan Bilik Latihan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Pusat Latihan Zainol</h1>
+    <p>Tempah bilik latihan anda secara percuma!</p>
+  </header>
+
+  <section id="rooms">
+    <h2>Senarai Bilik</h2>
+    <div class="room">
+      <h3>Bilik A</h3>
+      <p>Kapasiti: 20 orang</p>
+      <p>Kemudahan: Projektor, Wi-Fi, Whiteboard</p>
+    </div>
+    <div class="room">
+      <h3>Bilik B</h3>
+      <p>Kapasiti: 30 orang</p>
+      <p>Kemudahan: PA system, Aircond, Kerusi empuk</p>
+    </div>
+  </section>
+
+  <section id="booking">
+    <h2>Borang Tempahan</h2>
+    <form action="https://formspree.io/f/yourformid" method="POST">
+      <label>Nama:</label><br>
+      <input type="text" name="nama" required><br>
+      <label>Emel:</label><br>
+      <input type="email" name="emel" required><br>
+      <label>Tarikh Tempahan:</label><br>
+      <input type="date" name="tarikh" required><br>
+      <label>Pilih Bilik:</label><br>
+      <select name="bilik">
+        <option value="A">Bilik A</option>
+        <option value="B">Bilik B</option>
+      </select><br><br>
+      <button type="submit">Hantar Tempahan</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>Hubungi kami di: latihan@zainoltraining.my</p>
+  </footer>
+</body>
+</html>
