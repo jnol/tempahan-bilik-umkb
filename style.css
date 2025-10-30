@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f4f4f4;
+}
+
+header, footer {
+  background: #007bff;
+  color: white;
+  text-align: center;
+  padding: 1em;
+}
+
+section {
+  padding: 20px;
+}
+
+.room {
+  background: white;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+form input, form select, form button {
+  width: 100%;
+  padding: 8px;
+  margin: 5px 0;
+}
